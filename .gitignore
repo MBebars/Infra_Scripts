@@ -1,7 +1,6 @@
 # Secrets and generated credential files
 *.credential
 SendEmailSecret.ps1.credential
-Create-GraphSecret.ps1
 
 # Logs and reports
 Logs/
