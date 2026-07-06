@@ -14,7 +14,6 @@ The version in this repo adapts that idea to use Microsoft Graph `sendMail`, a D
 ## Main files
 
 - `Password_Expiration_Notification.ps1` - main PowerShell script.
-- `Password_Expiration_Notification.txt` - text copy for documentation/review.
 - `docs/gMSA_and_Graph_Secret_Configuration.md` - gMSA and Graph secret setup guide.
 - `tools/Create-GraphSecret.ps1` - temporary script template to export the Graph secret credential.
 - `tools/Create-GraphSecret-OneTimeTask.ps1` - one-time scheduled task template to run the secret export as the gMSA.
