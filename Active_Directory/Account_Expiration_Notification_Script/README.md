@@ -14,7 +14,6 @@ The idea was adapted from password-expiration checks to account-expiration check
 ## Main files
 
 - `Account_Expiration_Notification.ps1` - main PowerShell script.
-- `Account_Expiration_Notification.txt` - text copy for documentation/review.
 - `docs/gMSA_and_Graph_Secret_Configuration.md` - gMSA and Graph secret setup guide.
 - `tools/Create-GraphSecret.ps1` - temporary script template to export the Graph secret credential.
 - `tools/Create-GraphSecret-OneTimeTask.ps1` - one-time scheduled task template to run the secret export as the gMSA.
