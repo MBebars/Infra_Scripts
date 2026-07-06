@@ -150,7 +150,7 @@ try {
         # OUs to include
         $SearchBaseOUs = @(
             "OU=Users,DC=<COMPANY DOMAIN>,DC=com",
-            "OU=Vendors,OU=Users,DC=<COMPANY DOMAIN>,DC=com"
+            "OU=Users,OU=Users,DC=<COMPANY DOMAIN>,DC=com"
         )
 
         # Get Users From selected OUs only
