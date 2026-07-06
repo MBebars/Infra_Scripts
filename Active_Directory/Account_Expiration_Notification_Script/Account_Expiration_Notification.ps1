@@ -152,7 +152,7 @@ try {
 
         # OUs to include
         $SearchBaseOUs = @(
-            "OU=Vendors,OU=Users,DC=<COMPANY DOMAIN>,DC=com"
+            "OU=Users,OU=Users,DC=<COMPANY DOMAIN>,DC=com"
         )
 
         # Get enabled users from selected OUs only
