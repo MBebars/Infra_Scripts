@@ -65,7 +65,7 @@ $SendEmailAccount = '<SENDER-MAILBOX-UPN>'
 $ReportRecipient = '<ADMIN-REPORT-RECIPIENT>'
 $SearchBaseOUs = @(
     "OU=Users,DC=<COMPANY DOMAIN>,DC=com",
-    "OU=Vendors,OU=Users,DC=<COMPANY DOMAIN>,DC=com"
+    "OU=Users,OU=Users,DC=<COMPANY DOMAIN>,DC=com"
 )
 ```
 
