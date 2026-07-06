@@ -1,0 +1,19 @@
+# Secrets and generated credential files
+*.credential
+SendEmailSecret.ps1.credential
+Create-GraphSecret.ps1
+
+# Logs and reports
+Logs/
+*.csv
+RunReport-Debug.log
+
+# PowerShell temporary files
+*.tmp
+*.bak
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
